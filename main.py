@@ -1,4 +1,4 @@
-print ("Hola Mundo")
+print("Hola Mundo")
  
 class persona:
      nombre = str
@@ -20,8 +20,8 @@ if __name__ == "__main__" :
         print(maria)   
      
 class Miclase:
-        nombre = str
-        edad = int
+    nombre = str
+    edad = int
 p1 = Miclase()   
 print(p1.nombre)
 
@@ -80,9 +80,6 @@ p4.saludo()
 
 p4.nombre = "Jonathan"            
 p4.saludo()
-
- # p4.semestre
-# p4.saludo
 
           
     
