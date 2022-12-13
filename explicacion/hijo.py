@@ -79,9 +79,3 @@ p4.saludo()
 
 p4.nombre = "Jonathan"
 p4.saludo()
-
-#del p4.semestre
-#p4.saludo()
-
-del p4
-p4.saludo()

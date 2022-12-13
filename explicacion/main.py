@@ -35,7 +35,7 @@ class persona2:
        self.edad = edad
        self.genero = genero
        
-p2 = persona2(Diego, 29, "masculino")
+p2 = persona2("Diego", 29, "masculino")
 
 print(p2.nombre)
 print(p2.edad)
@@ -80,13 +80,3 @@ p4.saludo()
 
 p4.nombre = "Jonathan"            
 p4.saludo()
-
-          
-    
-
-
-    
-    
-     
-        
-            
