@@ -1,11 +1,11 @@
+import datetime
 
+class Payment():
+    id     = str
+    valor  = float
+    fecha  = datetime.datetime.now
 
-class Pago(): 
-    id = str
-    fecha = int
-    valor = float
-    
-    def __init__(self, id, fecha, valor):
-        self.id = id 
-        self.fecha = fecha  
+    def __init__(self, id, valor, fecha):
+        self.id    = id
         self.valor = valor
+        self.fecha = fecha

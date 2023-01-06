@@ -1,16 +1,15 @@
-from acount_driver import Driver
-class Car : 
-    placa = str
-    ao = int
-    color = str
-    drive = Driver("","","","","","")
-   
-    def __init__(self , placa , ao , color, driver):
-        super().__init__ 
-        self.placa = placa
-        self.ao= ao
-        self.color = color 
-        
-        self.drive = driver
-        
-    
+from accountDriver import Driver
+
+class Car(Driver):
+    placa   = str
+    modelo  = str
+    color   = str
+    año     = int
+    driver  = Driver("", "", "", "", "", "")
+
+    def __init__(self, placa, modelo, color, año, driver):
+        self.driver     = driver
+        self.placa      = placa
+        self.modelo     = modelo
+        self.color      = color
+        self.año        = año
